@@ -1,1 +1,1 @@
-# Test_playwright_automation
+# Automation testing using Playwright
