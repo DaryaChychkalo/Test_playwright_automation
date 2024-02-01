@@ -1,4 +1,18 @@
-﻿**Чек-лист перевірки сайту TodoMVC**
+# Опис
+Проект містить автоматизовані тести для веб-сторінки TodoMVC, реалізовані з використанням Playwright та Pytest.
+
+# Примітки
+Для роботи необхідно зробити налаштування:
+Pytest
+pip install -U pytest
+pytest --version
+
+Playwright
+pip install playwright
+pip show playwright
+python -m playwright install
+
+ **Чек-лист перевірки сайту TodoMVC**
 
 <table><tr><th valign="top">№ з/п</th><th valign="top">Опис</th><th valign="top"><p>Статус </p><p>Pass/Fail</p></th><th valign="top">Примітка</th></tr>
 <tr><td valign="top">1</td><td valign="top">Перевірка завантаження сторінки</td><td valign="top"></td><td rowspan="3" valign="top"><p>test_todos .py</p><p>test_todos_delete_task.py</p><p>test_todos_xfail.py</p></td></tr>
