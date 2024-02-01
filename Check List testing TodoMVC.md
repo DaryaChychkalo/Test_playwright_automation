@@ -1,6 +1,6 @@
 # ﻿Опис
 
-Проект містить автоматизовані тести для веб-сторінки TodoMVC, реалізовані з використанням Playwright та Pytest.
+Проект містить автоматизовані тести для веб-сторінки TodoMVC https://todomvc.com/examples/emberjs/todomvc/dist/, реалізовані з використанням Playwright та Pytest.
 
 # Примітки
 
