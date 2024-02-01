@@ -38,7 +38,7 @@ python -m playwright install
 <tr><td valign="top">4.3</td><td valign="top">Перевірити кількість завдань під час створення/видалення</td><td valign="top">Pass</td></tr>
 <tr><td valign="top">5</td><td valign="top">Перевірка тесту на виняток</td><td valign="top"></td><td rowspan="3" valign="top">test_todos_xfail.py</td></tr>
 <tr><td valign="top">5.1</td><td valign="top">Перевірити виняток із позначкою «xfail» </td><td valign="top">Pass</td></tr>
-<tr><td valign="top"><p>5.2</p><p></p></td><td valign="top">Перевірка, що тест не пройшов, але це бцло очікувано</td><td valign="top">Pass</td></tr>
+<tr><td valign="top"><p>5.2</p><p></p></td><td valign="top">Перевірка, що тест не пройшов, але це було очікувано</td><td valign="top">Pass</td></tr>
 </table>
 
 # Запуск тестів
