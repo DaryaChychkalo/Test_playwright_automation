@@ -4,13 +4,13 @@
 # Примітки
 Для роботи необхідно зробити налаштування:
 # Pytest
-_pip install -U pytest
-_pytest --version
+#pip install -U pytest
+#pytest --version
 
 # Playwright
-_pip install playwright
-_pip show playwright
-_python -m playwright install
+#pip install playwright
+#pip show playwright
+#python -m playwright install
 
  **Чек-лист перевірки сайту TodoMVC**
 
