@@ -3,11 +3,11 @@
 
 # Примітки
 Для роботи необхідно зробити налаштування:
-Pytest
+# Pytest
 pip install -U pytest
 pytest --version
 
-Playwright
+# Playwright
 pip install playwright
 pip show playwright
 python -m playwright install
