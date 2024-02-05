@@ -1,10 +1,8 @@
 ﻿Покроковий опис файлу test\_todos.py
 
+# 1. Перевірка завантаження сторінки
 
-
-\# 1. Перевірка завантаження сторінки
-
-`        `assert page.is\_visible("body")
+assert page.is\_visible("body")
 
 Мета: Перевірити що сторінка завантажується коректно та без помилок.
 
@@ -12,9 +10,9 @@
 
 Очікуваний результат: Сторінка завантажується без помилок.
 
-\# 2. Перевірка заголовка "todos"
+# 2. Перевірка заголовка "todos"
 
-`        `assert page.inner\_text(".header h1") == "todos"
+assert page.inner\_text(".header h1") == "todos"
 
 Мета: Переконатися що сторінка має заголовок todos.
 
@@ -22,11 +20,11 @@
 
 Очікуваний результат: Завантажувана сторінка TodoNVC має заголовок todos.
 
-\# 3. Перевірка наявності поля введення
+# 3. Перевірка наявності поля введення
 
-`          `new\_todo\_input = page.locator("input.new-todo")
+new\_todo\_input = page.locator("input.new-todo")
 
-`          `assert new\_todo\_input.is\_visible()
+assert new\_todo\_input.is\_visible()
 
 Мета: Перевірити наявність поля для введення.
 
@@ -34,11 +32,11 @@
 
 Очікуваний результат: Поле вводу має бути видимим на сторінці TodoNVC.
 
-` `# 4. Перевірка тексту плейсхолдера поля введення
+# 4. Перевірка тексту плейсхолдера поля введення
 
-`         `default\_placeholder\_text = new\_todo\_input.get\_attribute("placeholder")
+default\_placeholder\_text = new\_todo\_input.get\_attribute("placeholder")
 
-`         `assert default\_placeholder\_text == "What needs to be done?"
+assert default\_placeholder\_text == "What needs to be done?"
 
 Мета: Перевірити, що поле введення відображає правильний текст за замовчуванням.
 
