@@ -2,17 +2,15 @@
 
 ## 1. Перевірка завантаження сторінки
 
-assert page.is\_visible("body")
-
 Мета: Перевірити що сторінка завантажується коректно та без помилок.
 
 Кроки: Відкрити браузер Google Chrome, в пошуковому полі вставити посилання <https://todomvc.com/examples/emberjs/todomvc/dist/>.
 
 Очікуваний результат: Сторінка завантажується без помилок.
 
-## 2. Перевірка заголовка "todos"
+assert page.is\_visible("body")
 
-assert page.inner\_text(".header h1") == "todos"
+## 2. Перевірка заголовка "todos"
 
 Мета: Переконатися що сторінка має заголовок todos.
 
@@ -20,11 +18,9 @@ assert page.inner\_text(".header h1") == "todos"
 
 Очікуваний результат: Завантажувана сторінка TodoNVC має заголовок todos.
 
+assert page.inner\_text(".header h1") == "todos"
+
 ## 3. Перевірка наявності поля введення
-
-new\_todo\_input = page.locator("input.new-todo")
-
-assert new\_todo\_input.is\_visible()
 
 Мета: Перевірити наявність поля для введення.
 
@@ -32,14 +28,18 @@ assert new\_todo\_input.is\_visible()
 
 Очікуваний результат: Поле вводу має бути видимим на сторінці TodoNVC.
 
+new\_todo\_input = page.locator("input.new-todo")
+
+assert new\_todo\_input.is\_visible()
+
 ## 4. Перевірка тексту плейсхолдера поля введення
-
-default\_placeholder\_text = new\_todo\_input.get\_attribute("placeholder")
-
-assert default\_placeholder\_text == "What needs to be done?"
 
 Мета: Перевірити, що поле введення відображає правильний текст за замовчуванням.
 
 Кроки: Відкрити веб-браузер, перейти на сторінку TodoNVC, за допомогою селектора отримати атрибут плейсхолдера поля введення.
 
 Очікуваний результат: За замовчуванням текст для поля вводу має бути What needs to be done?.
+
+default\_placeholder\_text = new\_todo\_input.get\_attribute("placeholder")
+
+assert default\_placeholder\_text == "What needs to be done?"
