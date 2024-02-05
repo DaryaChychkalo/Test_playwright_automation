@@ -24,9 +24,6 @@ assert page.inner_text(".header h1") == "todos"
 
 Мета: Перевірити наявність поля для введення.
 
-
-[Пtest_todos .py](https://github.com/DaryaChychkalo/Test_playwright_automation/blob/615dbfb219f1642cef7e1d5d77a1ec7c1cdb271d/test_todos%20.py)
-
 Кроки: Відкрити веб-браузер, перейти на сторінку TodoNVC, знайти поле введення за допомогою селектора (input.new-todo).
 
 Очікуваний результат: Поле вводу має бути видимим на сторінці TodoNVC.
@@ -46,3 +43,5 @@ assert new_todo_input.is_visible()
 default_placeholder_text = new_todo_input.get_attribute("placeholder")
 
 assert default_placeholder_text == "What needs to be done?"
+
+[test_todos .py](https://github.com/DaryaChychkalo/Test_playwright_automation/blob/615dbfb219f1642cef7e1d5d77a1ec7c1cdb271d/test_todos%20.py)
