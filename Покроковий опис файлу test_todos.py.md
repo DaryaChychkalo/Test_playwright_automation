@@ -1,6 +1,6 @@
-﻿Покроковий опис файлу test\_todos.py
+#﻿Покроковий опис файлу test\_todos.py
 
-# 1. Перевірка завантаження сторінки
+## 1. Перевірка завантаження сторінки
 
 assert page.is\_visible("body")
 
@@ -10,7 +10,7 @@ assert page.is\_visible("body")
 
 Очікуваний результат: Сторінка завантажується без помилок.
 
-# 2. Перевірка заголовка "todos"
+## 2. Перевірка заголовка "todos"
 
 assert page.inner\_text(".header h1") == "todos"
 
@@ -20,7 +20,7 @@ assert page.inner\_text(".header h1") == "todos"
 
 Очікуваний результат: Завантажувана сторінка TodoNVC має заголовок todos.
 
-# 3. Перевірка наявності поля введення
+## 3. Перевірка наявності поля введення
 
 new\_todo\_input = page.locator("input.new-todo")
 
@@ -32,7 +32,7 @@ assert new\_todo\_input.is\_visible()
 
 Очікуваний результат: Поле вводу має бути видимим на сторінці TodoNVC.
 
-# 4. Перевірка тексту плейсхолдера поля введення
+## 4. Перевірка тексту плейсхолдера поля введення
 
 default\_placeholder\_text = new\_todo\_input.get\_attribute("placeholder")
 
