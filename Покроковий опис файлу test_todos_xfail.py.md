@@ -44,7 +44,7 @@ default_placeholder_text = new_todo_input.get_attribute("placeholder")
 
 assert default_placeholder_text == "What needs to be done?"
 
-## 5 Перевірка на виняток «xfail»
+## 5. Перевірка на виняток «xfail»
 
 Мета: Перевірити як тест реагує на невдачу через відому проблему (xfail).
 
