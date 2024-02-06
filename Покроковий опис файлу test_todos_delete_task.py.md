@@ -40,6 +40,7 @@ else:
 
 Очікуваний результат: На сторінці має відобразитися нове завдання.
 
+
 new_task_name = "TaskCreateNewTaskCheck"
 
 time.sleep(2)  
