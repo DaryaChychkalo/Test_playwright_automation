@@ -62,3 +62,4 @@ logging.info(f"\nКількість поточних завдань після �
     except Exception as e:
     logging.error(f"\nПомилка при видаленні завдання: {e}")
 
+[test_todos_delete_task](https://github.com/DaryaChychkalo/Test_playwright_automation/blob/6ab8d1edf328afee86cf1b9846170c6ecf82a072/test_todos_delete_task.py)
