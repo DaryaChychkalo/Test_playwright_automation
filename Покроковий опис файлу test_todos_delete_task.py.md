@@ -26,11 +26,11 @@ tasks_count = tasks.count()
 
 if tasks_count > 0:
 
-    logging.info(f"\nКількість поточних завдань: {tasks_count}")
+logging.info(f"\nКількість поточних завдань: {tasks_count}")
     
 else:
 
-    logging.info("\nНа сторінці немає завдань.")
+logging.info("\nНа сторінці немає завдань.")
     
 # 3. Тестування створення нового завдання
 
