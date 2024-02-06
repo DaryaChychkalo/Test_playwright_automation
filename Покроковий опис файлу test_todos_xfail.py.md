@@ -58,3 +58,6 @@ raise ValueError("Unknown test encountered.")
 
 if __name__ == "__main__":
 pytest.main(["-v", "test_todos_xfail.py"])
+
+
+[test_todos_xfail.py](https://github.com/DaryaChychkalo/Test_playwright_automation/blob/543e4dc612f48089e60e4db61b5b9de4552b898e/test_todos_xfail.py)
